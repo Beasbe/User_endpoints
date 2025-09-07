@@ -52,6 +52,12 @@ Auth2.0/
 
 ## 🛠️ Установка и запуск
 
+### Fast start:
+Запуск с докером:
+    ```
+    docker-compose up --build -d
+    ```
+
 Пошаговая инструкция по установке и запуску проекта локально для разработки и тестирования.
 
 **Предварительные требования:** Убедитесь, что у вас установлены:
@@ -63,8 +69,8 @@ Auth2.0/
 
 1.  Клонируйте репозиторий:
     ```bash
-    git clone https://github.com/Beasbe/test_Effective_Mobile.git
-    cd test_Effective_Mobile
+    git clone https://github.com/Beasbe/User_endpoints
+    cd User_endpoints
     ```
 
 2.  Создание виртуального окружения:
@@ -81,13 +87,6 @@ Auth2.0/
 3.  Установка зависимостей:
     ```bash
     pip install -r requirements.txt
-    ```
-
-4. Обновите Client_id & Client_secret в config.py:
-    ```bash
-   # config.py
-    GITHUB_CLIENT_ID = "your_client_id"
-    GITHUB_CLIENT_SECRET = "your_client_secret"
     ```
 
 4.  Запустите скрипт:
