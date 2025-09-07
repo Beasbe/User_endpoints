@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  auth-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=true
+    volumes:
+      - .:/app
+      - sqlite_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  sqlite_data:

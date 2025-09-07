@@ -22,25 +22,12 @@ wheels/
 MANIFEST
 
 # Virtual environments
-.env
 .venv
-env/
 venv/
+env/
 ENV/
 env.bak/
 venv.bak/
-
-# Database
-*.db
-*.sqlite3
-*.db-journal
-mydb.db
-
-# Docker
-.dockerignore
-Dockerfile
-docker-compose.yml
-docker-compose.override.yml
 
 # IDE
 .vscode/
@@ -48,31 +35,3 @@ docker-compose.override.yml
 *.swp
 *.swo
 *~
-
-# OS
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Logs
-*.log
-logs/
-
-# Environment variables
-.env
-.env.local
-.env.production
-
-# Coverage
-.coverage
-.coverage.*
-htmlcov/
-.pytest_cache/
-
-# Build
-/build/
-/dist/
